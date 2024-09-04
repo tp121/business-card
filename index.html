@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+
+        .header {
+            background-color: #2f2f40;
+            color: #fff;
+            padding: 15px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .header img {
+            width: 60px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-top: -50px;
+            border: 5px solid #fff;
+        }
+
+        .card h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .card p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .card .job-title {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .contact-info {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .button-group a {
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #2f2f40;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .button-group a:hover {
+            background-color: #444;
+        }
+
+        .button-group a img {
+            width: 20px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header">
+            <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/309705308_426468296261863_500881606543464924_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=VRep5wrQ_gQQ7kNvgE-PNSy&_nc_ht=scontent-iad3-1.xx&_nc_gid=AWGU2n91ZgBjIt52CEGa86x&oh=00_AYA2wEdwFD3ijIJie_ynyxXEpe5QxMOvVwWM2jnLOHiZfg&oe=66DE8E41" alt="Company Logo" id="companyLogo">
+        </div>
+        <img class="profile-pic" src="https://media.licdn.com/dms/image/v2/D5603AQHFr8ken_5LnQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715200116498?e=1730937600&v=beta&t=1BWgDsqo2QgvOw0Ri6sGOqT29iqs-xAz_80PAIBhih4" alt="Profile Picture" id="profilePic">
+        <h1>Tavish Perera</h1>
+        <p class="job-title">Policy Intern | Ohio State Student</p>
+        <p>Restaurant Association Metropolitan Washington</p>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 216-313-4949</p>
+            <p><strong>Work Email:</strong> <a href="mailto:tavish@ramw.org">tavish@ramw.org</a></p>
+            <p><strong>Personal Email:</strong> <a href="mailto:perera.64@osu.edu">perera.64@osu.edu</a></p>
+        </div>
+        <div class="button-group">
+            <a href="https://www.linkedin.com/in/tavish-perera-b920212a2/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon"> LinkedIn
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
